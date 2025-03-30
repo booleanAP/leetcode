@@ -2,6 +2,7 @@
 
 
 /*
+    Completed 3/29/25
     Learned:
         - Getting the length of the prefix every loop is not as effecient, save it as a variable. 
         - Looping through and subtracting the length of this variable makes the next checks that much faster.

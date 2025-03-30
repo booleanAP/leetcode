@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/roman-to-integer/
 
-/* Learned Notes:
+/* 
+    Completed 3/29/25
+    Learned Notes:
     - I could have skipped the "isSpecialCase" function if I had seen the pattern.
     - The pattern would be that if the current number is less than the next number, then we subtract it instead of adding it.
         This would have let the loop be a lot simpler, like so:
