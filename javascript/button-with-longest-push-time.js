@@ -8,12 +8,18 @@
             "
                 Here's a way to visualize the problem to hopefully make it clearer:
 
-                Imagine a keyboard whose keys are extremely heavy and require a lot of force to press. So, instead of quickly pressing a key, you start applying force and keep pushing it until it's all the way down.
+                Imagine a keyboard whose keys are extremely heavy and require a lot of force to press. 
+                So, instead of quickly pressing a key, you start applying force and keep pushing it until it's all the way down.
 
                 Example:
-                Let's say the first element in events is [3, 8]. This means, at t = 0, you start applying downward force on button 3 and it becomes fully pressed at t = 8. So, it took you 8 seconds to press it. If, at a later time, it takes you longer than 8 seconds to press this button, set the duration to the max value encountered. The problem is then finding the button that was "hardest" to press, e.g. that required the most force, or energy.
+                Let's say the first element in events is [3, 8]. 
+                This means, at t = 0, you start applying downward force on button 3 and it becomes fully pressed at t = 8. 
+                So, it took you 8 seconds to press it. If, at a later time, it takes you longer than 8 seconds to press this button, 
+                set the duration to the max value encountered. 
+                The problem is then finding the button that was "hardest" to press, e.g. that required the most force, or energy.
 
-                This is –without a doubt– one of the worst problem descriptions I've seen on LeetCode. Figuring out what the problem actually means is 99% of the way to the solution.
+                This is –without a doubt– one of the worst problem descriptions I've seen on LeetCode. 
+                Figuring out what the problem actually means is 99% of the way to the solution.
             "
 */
 

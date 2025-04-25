@@ -1,0 +1,14 @@
+// filepath: e:\dev\leetcode\javascript\length-of-arguments-passed\tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2016", // Or a newer target like ES2020
+    "module": "CommonJS", // Use CommonJS module system
+    "outDir": "./dist",   // Optional: specify output directory for compiled JS
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts"], // Include all .ts files in the project
+  "exclude": ["node_modules"] // Exclude node_modules
+}
