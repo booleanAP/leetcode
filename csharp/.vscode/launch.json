@@ -13,8 +13,10 @@
                 "${file}" // Pass the script file directly
             ],
             "cwd": "${workspaceFolder}",
-            "stopAtEntry": true,
-            "justMyCode": false // Disable 'Just My Code' for full debugging
+            "stopAtEntry": false, // Changed to false (usually preferred)
+            "console": "internalConsole", // Added for clarity, directs output to Debug Console
+            "requireExactSource": false, // Added this line to address the warning
+            "justMyCode": true // Changed back to true (default, less noise)
         }
     ]
 }
